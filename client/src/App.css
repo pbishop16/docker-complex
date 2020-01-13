@@ -1,6 +1,18 @@
+html {
+  font-size: 18px;
+}
+
 .App {
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* a:active {
+
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

@@ -7,6 +7,7 @@ const {
   redisHost,
   redisPort,
 } = require('./keys');
+const port = 5000;
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -72,6 +73,6 @@ app.post('/values', async (req, res) => {
   res.send({ working: true });
 });
 
-app.listen(5000, () => {
-  console.log('Listening on port 5000');
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
 });
